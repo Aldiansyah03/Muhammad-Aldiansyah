@@ -1,79 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <nav class="navbar">
-            <div class="container">
-                <div class="logo">
-                    <img src="Labourer 3.png" alt="My Logo">
-                </div>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="Kalkulator/index.html">Kalkulator</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Labourer.co</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    
+</head><link rel="stylesheet" href="style.css">
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#8d6649">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <img src="img/Labourer 3.png" alt="Bootstrap" width="120" height="86">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hubungi Kami</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="Kalkulator/index.html">Kalkulator</a></li>
+                <li><a class="dropdown-item" href="#">Buat Proyek</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Daftar Proyek</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
 
-    <main class="container">
-        <section class="main-content">
-            <div class="container-conten1">
-                <img src="ruangan.png" class="img-content1"/>
-                <div class="container-conten2">
-                    <h3 class="h3-judul">Judul Proyek</h3>
-                    <div class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...</div>
-                    <ul class="ul-conten">
-                        <li class="li-conten">jenis</li>
-                        <li class="li-conten">jumlah</li>
-                        <li class="li-conten">gaji</li>
-                    </ul>
-                    <a class="more-link" >Read more &rarr;</a>
-                   
-                </div>     
-            </div> 
-            <div class="container-conten1">
-                <img src="ruangan.png" class="img-content1"/>
-                <div class="container-conten2">
-                    <h3 class="h3-judul">Judul Proyek</h3>
-                    <div class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...</div>
-                    <ul class="ul-conten">
-                        <li class="li-conten">jenis</li>
-                        <li class="li-conten">jumlah</li>
-                        <li class="li-conten">gaji</li>
-                    </ul>
-                    <a class="more-link" >Read more &rarr;</a>
-                   
-                </div>     
-            </div>
-        </section>
-        
-
-        <aside class="aside-content">
-            <div class="feature">
-                <h3>Sidebar Content</h3>
-                <img src="ruangan.png" alt="Gambar Contoh" class="sidebar-image">
-                <p>This is the content of the sidebar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="feature">
-                <h3>Sidebar Content</h3>
-                <img src="ruangan.png" alt="Gambar Contoh" class="sidebar-image">
-                <p>This is the content of the sidebar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-        </aside>
-    </main>
-
-    <footer>
-        <div class="footer">
-            <p>tugas 1 mandiri 11211054 Muhammad Aldiansyah .</p>
+          </form>
         </div>
-    </footer>
-</body>
+      </div>
+    </nav>
+    <!-- end navbar -->
+<!-- jumbotron -->
+
+<section class="jumbotron">
+    <div class="container text-center,">
+        <div class="row align-items-start,grid gap-0 column-gap-3, ">
+          <div class="col ">
+            <img src="img/rumah.png" alt="foto rumah" width="480"class="te">
+          </div>
+          <div class="col">
+            <p>    </p>
+
+            <p>Halo, Selamat Datang</p>
+            <h1 class="display-4,Bold text.">Your Trusted Building Solution</h1>
+            <p class="lead">Home Maintenance, Build and Renovate,
+                Design Inspiration
+                ......</p>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+        
+          </div>
+        </div>
+      </div>
+    <div>
+    
+</section>
+l
+<!-- akhir jumbotron -->
+
+<!-- about me -->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col, text-center">
+        <h2> About Me</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ab cupiditate illum deleniti ex tempora officiis vel alias ut consectetur.</p>
+      </div>
+      <div class="col"></div>
+      <div class="col"></div>
+    </div>
+  </div>
+</section>
+<!-- akhir About -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
 </html>
